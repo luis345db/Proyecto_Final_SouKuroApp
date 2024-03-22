@@ -14,6 +14,7 @@ namespace Shared.Models
         public int Id { get; set; }
 
         [ForeignKey("PedidoId")]
+        public int PedidoId { get; set;}
 
         [Required]
         public string Nombre_Producto { get; set;}
