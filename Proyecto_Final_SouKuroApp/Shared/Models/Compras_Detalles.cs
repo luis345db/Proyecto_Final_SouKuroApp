@@ -8,18 +8,21 @@ using System.Threading.Tasks;
 
 namespace Shared.Models
 {
-    public class Proveedores_Detalle
+    public class Compras_Detalles
     {
         [Key]
         public int Id { get; set; }
 
-        [ForeignKey("ProveedorId")]
-        public int ProveedorId { get; set; }
+        [ForeignKey("CompraId")]
+        public int ComprasId { get; set; }
+
+        [Required] 
+        public string Nombre_Producto { get; set; } = string.Empty;
 
         [Required]
-        public string TipoProducto { get; set; } = string.Empty;
+        public int Unidades {  get; set; }
 
         [Required]
-        public string NombreProveedor { get; set; } = string.Empty;
+        public int Precio { get; set; } 
     }
 }
