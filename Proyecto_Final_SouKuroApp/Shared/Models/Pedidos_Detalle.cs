@@ -17,7 +17,7 @@ namespace Shared.Models
         public int PedidoId { get; set;}
 
         [Required]
-        public string Nombre_Producto { get; set;}
+        public string Nombre_Producto { get; set;} = string.Empty;
 
         [Required]
         public int Cantidad { get; set; }
