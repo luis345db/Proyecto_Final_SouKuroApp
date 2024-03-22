@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,5 +36,8 @@ namespace Shared.Models
 
         [Required]
         public int Total { get; set; }
+
+        [ForeignKey("Compra")]
+        public ICollection<Compras_Detalles> Detalle { get; set; } = new List<Compras_Detalles>();
     }
 }
