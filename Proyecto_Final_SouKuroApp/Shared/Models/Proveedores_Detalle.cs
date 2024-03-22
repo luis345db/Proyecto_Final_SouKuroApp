@@ -12,9 +12,9 @@ namespace Shared.Models
         [Key]
         public int Id { get; set; }
         [Required]
-        public string TipoProducto { get; set; }
+        public string TipoProducto { get; set; } = string.Empty;
 
         [Required]
-        public string NombreProveedor { get; set; }
+        public string NombreProveedor { get; set; } = string.Empty;
     }
 }

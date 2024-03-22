@@ -13,11 +13,11 @@ namespace Shared.Models
         [Key]
         public int ProveedorId { get; set; }
         [Required]
-        public string Certificacion { get; set; }
+        public string Certificacion { get; set; } = string.Empty;
         [Required]
-        public string RNC { get; set; }
-        [Required]
-        public int Telefono { get; set; }
+        public string RNC { get; set; } = string.Empty;
+        [Required] 
+        public string Telefono { get; set; } = string.Empty;    
 
         [ForeignKey("Proveedores")]
         public ICollection<Proveedores_Detalle> Detalle { get; set; } = new List<Proveedores_Detalle>();

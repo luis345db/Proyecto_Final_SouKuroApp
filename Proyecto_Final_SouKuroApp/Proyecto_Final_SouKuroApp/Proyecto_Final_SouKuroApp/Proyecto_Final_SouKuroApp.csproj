@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Proyecto_Final_SouKuroApp.Client\Proyecto_Final_SouKuroApp.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
   </ItemGroup>
 
 </Project>
