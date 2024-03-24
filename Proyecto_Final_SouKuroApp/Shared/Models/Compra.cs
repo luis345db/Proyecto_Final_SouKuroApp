@@ -20,7 +20,7 @@ namespace Shared.Models
         public string NFC { get; set;} = string.Empty;
 
         [Required]
-        public int No_Factura { get; set; }
+        public int No_Compra { get; set; }
 
         [Required]
         public string Telefono { get; set; } = string.Empty;
