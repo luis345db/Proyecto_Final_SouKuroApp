@@ -29,13 +29,13 @@ namespace Shared.Models
         public int Cantidad { get; set; }
 
         [Required]
-        public int SubTotal { get; set; }
+        public decimal SubTotal { get; set; }
 
         [Required]
-        public int ITEBIS { get; set; }
+        public decimal ITBIS { get; set; }
 
         [Required]
-        public int Total { get; set; }
+        public decimal Total { get; set; }
 
         [ForeignKey("Compra")]
         public ICollection<Compras_Detalles> Detalle { get; set; } = new List<Compras_Detalles>();
