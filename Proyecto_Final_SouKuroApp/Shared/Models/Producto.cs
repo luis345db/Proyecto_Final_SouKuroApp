@@ -15,8 +15,7 @@ public class Producto
 	public string Nombre { get; set; } = string.Empty;
 	[Required]
 	public string Descripcion { get; set; } = string.Empty;
-	[Required]
-	public string Categoria { get; set; } = string.Empty;
+	
 	[Required]
 	public string Proveedor { get; set; } = string.Empty;
 	[Required]
