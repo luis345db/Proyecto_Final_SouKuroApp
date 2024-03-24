@@ -19,7 +19,5 @@ namespace Shared.Models
         [Required] 
         public string Telefono { get; set; } = string.Empty;    
 
-        [ForeignKey("Proveedores")]
-        public ICollection<Proveedores_Detalle> Detalle { get; set; } = new List<Proveedores_Detalle>();
     }
 }
