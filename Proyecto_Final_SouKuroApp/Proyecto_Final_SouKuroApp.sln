@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto_Final_SouKuroApp", "Proyecto_Final_SouKuroApp\Proyecto_Final_SouKuroApp\Proyecto_Final_SouKuroApp.csproj", "{9D284DE9-50C7-4039-88F9-214384ADD4A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proyecto_Final_SouKuroApp", "Proyecto_Final_SouKuroApp\Proyecto_Final_SouKuroApp\Proyecto_Final_SouKuroApp.csproj", "{9D284DE9-50C7-4039-88F9-214384ADD4A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto_Final_SouKuroApp.Client", "Proyecto_Final_SouKuroApp\Proyecto_Final_SouKuroApp.Client\Proyecto_Final_SouKuroApp.Client.csproj", "{9F528865-BF69-4726-A78F-51106FCA3CFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proyecto_Final_SouKuroApp.Client", "Proyecto_Final_SouKuroApp\Proyecto_Final_SouKuroApp.Client\Proyecto_Final_SouKuroApp.Client.csproj", "{9F528865-BF69-4726-A78F-51106FCA3CFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{7C58AF0C-62EB-43AC-8F9A-8D1D09117F9F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto_Final_SouKuroApp.Api", "Proyecto_Final_SouKuroApp.Api\Proyecto_Final_SouKuroApp.Api.csproj", "{0F6D56B2-41D5-4820-B584-68F0956F1F8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{7C58AF0C-62EB-43AC-8F9A-8D1D09117F9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{7C58AF0C-62EB-43AC-8F9A-8D1D09117F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C58AF0C-62EB-43AC-8F9A-8D1D09117F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C58AF0C-62EB-43AC-8F9A-8D1D09117F9F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0F6D56B2-41D5-4820-B584-68F0956F1F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F6D56B2-41D5-4820-B584-68F0956F1F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F6D56B2-41D5-4820-B584-68F0956F1F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F6D56B2-41D5-4820-B584-68F0956F1F8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
