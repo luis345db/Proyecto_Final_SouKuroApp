@@ -1,5 +1,7 @@
+using Microsoft.EntityFrameworkCore;
 using Proyecto_Final_SouKuroApp.Client.Pages;
 using Proyecto_Final_SouKuroApp.Components;
+using Proyecto_Final_SouKuroApp.DAL;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +9,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
+
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+//builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContextFactory<Contexto>
+    (o => o.UseSqlServer(builder.Configuration.GetConnectionString("ConStr")));
+
+
 
 var app = builder.Build();
 
